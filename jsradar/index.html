@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="radar">
+  <head>
+       <meta charset="utf-8">
+        <title>JS Radar</title> 
+		<link rel="shortcut icon" href="lib/images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="lib/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/css/ui-grid.min.css" />
+      <link rel="stylesheet" href="lib/css/jquery.toastmessage.css" />
+      <link rel="stylesheet" href="res/css/style.css" />
+      
+  </head>
+  <body>
+    <div ng-controller="MainCtrl" ng-cloak>
+        <header>
+    <!--                <img class ="sape-logo" src="lib/images/sape-logo.png"></img>-->
+            <img class="xt-logo" src="lib/images/XTS-logo-150.png"></img>
+            <span class="xt-india">India</span><h1 class="title">JS RADAR</h1>
+            <div class="btn-group"> 
+                <a href="#" ng-click="toggleFilter($event)" id="gridFilter" class="btn btn-default">Filter</a>
+                <a href="#" class="btn-save btn btn-primary" ng-click="saveLocalModifications($event)">Save Changes</a>
+                <a href="#" class="btn btn-primary active" style="display: none;">GRID</a>
+                <a href="quad.html" class="btn btn-default" style="display: none;">QUAD</a>
+            </div>
+        </header>
+       <section class="page grid-page">
+      <div ui-grid="gridOptions" ui-grid-edit ui-grid-cellNav external-scopes="buttonScope" class="grid"></div>
+    </section>
+    </div>
+    <footer>
+        <script src="lib/js/jquery.min.2.1.1.js"></script>
+        <script src="lib/js/jquery.toastmessage.js"></script>
+        <script src="lib/js/angular.min.1.2.16.js"></script>
+        <script src="lib/js/ui-grid.js"></script>
+        <script src="res/js/app.js"></script>
+        <script src="res/js/dataFactory.js"></script>
+    </footer>    
+  </body>
+</html>
