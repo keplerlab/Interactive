@@ -21,28 +21,36 @@
 <h4>Completely customizable options and default params can be overridden </h4>
 ```javascript
 var settings = {
-			lazyLoadClass : 'lazyload', //
-			lth : 'lth',
+			lazyLoadClass : 'lazyload', //the lazy load class that needs to be added to img or div for lazyloading of images. 
+			lth : 'lth', // the low res to high res class that needs to be added if you need that functionality
 			vp:{
-				large: 1154,
-				medium: 750,
-				small: 200,
-				xlarge: 2000
+				large: 1154, // large Viewport value
+				medium: 750, // Medium viewport value
+				small: 200,  // small viewport value
+				xlarge: 2000 // Extra large viewport value
 			},
-			selector: 'img',
-			offset : 300,
-			defaultImage:'images/1x1.png',
-			retina : true,
-			hiSrcExt : '.high.gif',
-			landscape: false,
-			iframeSelector: 'iframe',
-			bgselector: '.bgimage'
+			selector: 'img',  // image selector
+			offset : 300,     // Lazy load offset. This determines how much pixel before the images to be loaded and ready when you scroll
+			defaultImage:'images/1x1.png', // default image value
+			retina : true, // retina support flag
+			hiSrcExt : '.high.gif', // Common extension can be provided for low to high res loading
+			landscape: false, // small viewport landscape support flag
+			iframeSelector: 'iframe', //Iframe selector
+			bgselector: '.bgimage' // Background image selector class
 		}
 		, calcOffset
 		, bindEvents = false
 		, pageLoaded =false
 		, currentmedium
 		, lastmedium 
-		, isRetina =false
+		, isRetina =false // Check for Retina
 		;
+```
+<h4>How to override in your application script</h4>
+```javascript
+awesome.init({
+		selector: 'img',
+		offset : 100,
+		landscape: false
+	})
 ```
