@@ -51,6 +51,6 @@ var settings = {
 awesome.init({
 		selector: 'img',
 		offset : 100,
-		landscape: false
+		retina: false
 	})
 ```
