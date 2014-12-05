@@ -15,7 +15,7 @@
 <li>Angular support</li>
 <li>Completely customizable options where users can change the default settings.</li>
 <li>Support all modern browsers (desktop and touch devices) IE8 and above </li>
-<li>Only native JS – No jQuery  or any library dependency. For Angular users have to download angular in their package but we provide the angular directive.</li>
+<li>Only native JS – No jQuery  or any library dependency. For Angular, users have to download angular in their package but we provide the angular directive.</li>
 </ul>
 ------------------------------------------------------------------
 <h4>Completely customizable options and default params can be overridden </h4>
