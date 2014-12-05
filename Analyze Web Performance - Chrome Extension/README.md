@@ -13,7 +13,7 @@ https://chrome.google.com/webstore/detail/analyze-page-performance/hemibacgndhdh
 <li>Built on top of HTML5 window.performance and native Javascript</li>
 </ul>
 
-<h4>A quick tip: If you see the extension not loading or not showing the data, please clear your browser cache and open a new browser window and it should work. Also the extension wont actually work on the chrome store or extensions page.</h4>
+<p>A quick tip: If you see the extension not loading or not showing the data, please clear your browser cache and open a new browser window and it should work. Also the extension wont actually work on the chrome store or extensions page.</p>
 ------------------------------------------------------------------
 <h4>What's for the future ? </h4>
 <ul>
