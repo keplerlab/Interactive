@@ -1,5 +1,7 @@
 <h3>Analyze Browser Performance: A chrome Browser Extension</h3>
 ----------------------------------
+https://chrome.google.com/webstore/detail/analyze-page-performance/hemibacgndhdhkfahkjdedjdgfapmfki
+
 <h4>How about a Chrome Browser Extension to measure the Page load performance and other details to analyse the load time of your web page ? </h4>
 <ul>
 <li>The Page load time is right there for every tab to indicate the slow or fast loading. Also 4 set of icons to display how fast the site is.</li>
