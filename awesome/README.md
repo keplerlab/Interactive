@@ -25,4 +25,6 @@
 <ul>
 <li>Intgerated Grunt tasks provided for JS linting, Uglify, Compression.</li>
 <li>Customizable download so that users will only get what is needed for them.</li>
+<li>AMD support</li>
+<li>Unit Testing Packages</li>
 </ul>
