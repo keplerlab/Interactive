@@ -6,6 +6,7 @@
 <li>For low res to high res, the library will automatically load the retina images (if retina option is enabled) and for non retina it will load the high resolution images for corresponding viewports. </li>
 <li>The vendor libraries are just used for example. The awesome js doesnt depend on them.</li>
 <li>awesome-min.js is the core library and awesome-directive-min.js is needed for angular. The corresponding source files have been placed under src folder.</li>
+<li>Iframe lazy load example is also been provided.</li>
 </ul>
 
 <h4>Completely customizable options and any of the default params can be overridden </h4>
