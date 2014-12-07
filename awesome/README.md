@@ -5,7 +5,7 @@
 <li>Responsive image solution</li>
 <li>Lazyload</li>
 <li>Capture image path value from json and load it dynamically</li>
-<li>Low resolution to high resolution switcher</li>
+<li>Low resolution to high resolution switcher. If the device is retina display then it loads the retina image and for other devices/browsers it loads the high resolution images provided.</li>
 <li>Support small breakpoint landscape mode </li>
 <li>Support XL breakpoint </li>
 <li>Support iFrame lazyload</li>
@@ -18,39 +18,4 @@
 <li>Only native JS – No jQuery  or any library dependency. For Angular, users have to download angular in their package but we provide the angular directive.</li>
 </ul>
 ------------------------------------------------------------------
-<h4>Completely customizable options and default params can be overridden </h4>
-```javascript
-var settings = {
-			lazyLoadClass : 'lazyload', //the lazy load class that needs to be added to img or div for lazyloading of images. 
-			lth : 'lth', // the low res to high res class that needs to be added if you need that functionality
-			vp:{
-				large: 1154, // large Viewport value
-				medium: 750, // Medium viewport value
-				small: 200,  // small viewport value
-				xlarge: 2000 // Extra large viewport value
-			},
-			selector: 'img',  // image selector
-			offset : 300,     // Lazy load offset. This determines how much pixel before the images to be loaded and ready when you scroll
-			defaultImage:'images/1x1.png', // default image value
-			retina : true, // retina support flag
-			hiSrcExt : '.high.gif', // Common extension can be provided for low to high res loading
-			landscape: false, // small viewport landscape support flag
-			iframeSelector: 'iframe', //Iframe selector
-			bgselector: '.bgimage' // Background image selector class
-		}
-		, calcOffset
-		, bindEvents = false
-		, pageLoaded =false
-		, currentmedium
-		, lastmedium 
-		, isRetina =false // Check for Retina
-		;
-```
-<h4>How to override in your application script</h4>
-```javascript
-awesome.init({
-		selector: 'img',
-		offset : 100,
-		retina: false
-	})
-```
+<p>Check out example folder for usage information.</p>
