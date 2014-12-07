@@ -1,0 +1,195 @@
+<!doctype html>
+<!-- [if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif] -->
+<!-- [if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif] -->
+<!-- [if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif] -->
+<!-- [if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<title>Awesome JS</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/app.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="image-holder first">
+   Responsive Image with Low Res to High Res but no Lazy load - Example 1
+	<img src="img/1x1.gif"
+		data-base="http://placehold.it/"
+        data-xlarge="1500x200&text=first-x-large-image"
+		data-large="1000x200&text=first-large-image"
+		data-medium="700x200&text=first-medium-image"
+        data-small="400x200&text=first-small-image"
+		data-xlarge-retina="2200x200&text=first-x-large-retina-image"
+		data-large-retina="1500x200&text=first-large-retina-image"
+		data-medium-retina="1000x200&text=first-medium-retina-image"
+		data-small-retina="700x200&text=first-small-retina-image"
+		data-small-landscape="500x200&text=first-small-landscape-image"
+		data-small-landscape-retina="900x200&text=first-small-landscape-retina-image"
+        data-x-large-hi="1800x200&text=first-x-large-image-highres"
+        data-large-hi="1500x200&text=first-large-image-highres"
+        data-medium-hi="1000x200&text=first-medium-image-highres"
+		data-small-hi="600x200&text=first-small-image-highres"
+        data-small-landscape-hi="800x200&text=first-small-landscape-image-highres"
+		class="lth"
+	/>
+</div>
+<div style="min-height:600px;"></div>
+<div class="image-holder">
+  Responsive Image with Lazy load - Example 2
+	<img src="img/1x1.gif"
+		data-base="http://placehold.it/"
+        data-xlarge="1500x200&text=second-x-large-image"
+		data-large="1000x200&text=second-large-image"
+		data-medium="700x200&text=second-medium-image"
+        data-small="400x200&text=second-small-image"
+        data-small-landscape="500x200&text=second-small-landscape-image"
+		data-xlarge-retina="2200x200&text=second-x-large-retina-image"
+		data-large-retina="1500x200&text=second-large-retina-image"
+		data-medium-retina="1000x200&text=second-medium-retina-image"
+		data-small-retina="700x200&text=second-small-retina-image"
+		data-small-landscape-retina="900x200&text=second-small-landscape-retina-image"
+		class="lazyload"
+	/>
+</div>
+
+
+<div class="image-holder hres-image-section">
+		Responsive Image with Lazy load + Low Resolution to High Resolution - Example 3
+		<img src="img/1x1.gif"
+		data-base="http://placehold.it/"
+        data-xlarge="1500x200&text=third-x-large-image"
+		data-large="1000x200&text=third-large-image"
+		data-medium="700x200&text=third-medium-image"
+        data-small="400x200&text=third-small-image"
+        data-small-landscape="500x200&text=third-small-landscape-image"
+		data-xlarge-retina="2200x200&text=third-x-large-retina-image"
+		data-large-retina="1500x200&text=third-large-retina-image"
+		data-medium-retina="1000x200&text=third-medium-retina-image"
+		data-small-retina="700x200&text=third-small-retina-image"
+		data-small-landscape-retina="900x200&text=third-small-landscape-retina-image"
+        data-x-large-hi="1800x200&text=third-x-large-image-highres"
+        data-large-hi="1500x200&text=third-large-image-highres"
+        data-medium-hi="1000x200&text=third-medium-image-highres"
+		data-small-hi="600x200&text=third-small-image-highres"
+        data-small-landscape-hi="800x200&text=third-small-landscape-image-highres"
+		class="lazyload lth"
+	/>
+	</div>
+
+<div class="image-holder">
+    Lazy load only No responsive - Example 4
+	<img src="img/1x1.gif"
+		data-src="http://placehold.it/1000x200&text=Lazyload-only"
+		class="lazyload"
+	/>
+</div>
+
+<div class="bgimage lazyload"
+		data-base="http://placehold.it/"
+        data-xlarge="1500x200&text=background-x-large-image"
+		data-large="1000x200&text=background-large-image"
+		data-medium="700x200&text=background-medium-image"
+        data-small="400x200&text=background-small-image"
+        data-small-landscape="500x200&text=background-small-landscape-image"
+		data-xlarge-retina="2200x200&text=background-x-large-retina-image"
+		data-large-retina="1500x200&text=background-large-retina-image"
+		data-medium-retina="1000x200&text=background-medium-retina-image"
+		data-small-retina="700x200&text=background-small-retina-image"
+		data-small-landscape-retina="900x200&text=background-small-landscape-retina-image">
+			Responsive Background image Lazy loaded - Example 5
+</div>
+
+<div class="bgimage lazyload" data-src="http://placehold.it/1500x200&text=background-lazy-loaded-image">
+			Non Responsive Background image Lazy loaded - Example 6
+</div>
+
+
+<button id="showhidden">
+	Show hidden images.... Example 7
+</button>
+
+<div id="hidden-images" style="display:none">
+	<div class="image-holder">
+		<img src="img/1x1.gif"
+		data-base="http://placehold.it/"
+        data-xlarge="1500x200&text=hidden-x-large-image"
+		data-large="1000x200&text=hidden-large-image"
+		data-medium="700x200&text=hidden-medium-image"
+        data-small="400x200&text=hidden-small-image"
+        data-small-landscape="500x200&text=hidden-small-landscape-image"
+		data-xlarge-retina="2200x200&text=hidden-x-large-retina-image"
+		data-large-retina="1500x200&text=hidden-large-retina-image"
+		data-medium-retina="1000x200&text=hidden-medium-retina-image"
+		data-small-retina="700x200&text=hidden-small-retina-image"
+		data-small-landscape-retina="900x200&text=hidden-small-landscape-retina-image"
+		class="lazyload">
+	</div>
+
+</div>
+
+<button id="loadfromjson">
+	Load image paths dynamically from json  - Example 8
+</button>
+
+<div id="imagesformjson">
+</div>
+<div ng-controller="loadImages">
+	<button ng-click="loadImages()">
+		Load images through Angular Directive - Example 9
+	</button>
+
+	<div class="image-holder" ng-repeat="image in images">
+		Hey.... this displayed using angular directive...
+		<img src="img/1x1.gif"
+			class="lazyload" ic="image" data-renditions='{"base":"{{image}}","x-large":"1500x200&text=angular-x-large-image","large":"1000x200&text=angular-large-image","medium":"700x200&text=angular-medium-image","small":"400x200&text=angular-small-image","small-landscape":"500x200&text=angular-small-landscape-image","x-large-retina":"1800x200&text=angular-x-large-retina-image","large-retina":"1000x200&text=angular-large-retina-image","medium-retina":"700x200&text=angular-medium-retina-image","small-retina":"400x200&text=angular-small-retina-image","small-landscape-retina":"500x200&text=angular-small-landscape-retina-image"}'
+		/>
+
+	</div>
+
+</div>
+
+Iframe Lazy loaded - Example 10
+<iframe data-src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:290px;" allowTransparency="true"></iframe>
+
+
+<script id="images-template" type="text/x-handlebars-template">
+{{#each images}}
+   <div class="image-holder">
+		<img src="img/1x1.gif"
+			data-base="{{base}}"
+            data-x-large="{{x-large}}"
+			data-large="{{large}}"
+			data-medium="{{medium}}"
+			data-small="{{small}}"
+            data-small-landscape="{{small-landscape}}"
+            data-xlarge-retina="{{x-large-retina}}"
+		    data-large-retina="{{large-retina}}"
+		    data-medium-retina="{{medium-retina}}"
+		    data-small-retina="{{small-retina}}"
+		    data-small-landscape-retina="{{small-landscape-retina}}"
+			class="lazyload"
+		/>
+	</div>
+{{/each}}
+</script>
+
+<!-- External libraries needed for demo page only -->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/vendor/angular-custom-min.js"></script>
+<script src="js/vendor/handlebars-v2.0.0-min.js"></script>
+
+<!-- Awesome JS Libraries min file -->
+<script src="../awesome-directive-min.js"></script>
+<script src="../awesome-min.js"></script>
+
+<!-- Page specific JS -->
+<script src="js/app.js"></script>
+
+</body>
+</html>
