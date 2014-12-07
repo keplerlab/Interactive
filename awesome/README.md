@@ -19,3 +19,10 @@
 </ul>
 ------------------------------------------------------------------
 <p>Check out example folder for usage information.</p>
+
+-------------------------------------------------------------------
+<h4>What's next in future versions ? </h4>
+<ul>
+<li>Intgerated Grunt tasks provided for JS linting, Uglify, Compression</li>
+<li>Customizable download so that users can download what is needed for them.</li>
+</ul>
