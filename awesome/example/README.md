@@ -1,9 +1,11 @@
 <h3>Explanation and sample usage</h3>
 ----------------------------------
-<p>The example contains demo of all possible combinations which we can do with this library. Retina, landscape both the flags are turned on.Check it out. Different images have been used to highlight the different usecases. </p><br/>
-<p>The example also highlights displaying hidden images, how lazy loaded through reinit functions, angular example and dynamic image paths received through JSON and handlebar templating.</p><br/>
-<p>For low res to high res, the library will automatically load the retina images (if retina option is enabled) and for non retina it will load the high resolution images for corresponding viewports.</p><br/> 
-The vendor libraries are just used for example. The awesome js doesnt depend on them.</p>
+<ul>
+<li>The example contains demo of all possible combinations which we can do with this library. Retina, landscape both the flags are turned on.Check it out. Different images have been used to highlight the different usecases.</li>
+<li>The example also highlights displaying hidden images, how lazy loaded through reinit functions, angular example and dynamic image paths received through JSON and handlebar templating.</li>
+<li>For low res to high res, the library will automatically load the retina images (if retina option is enabled) and for non retina it will load the high resolution images for corresponding viewports. </li>
+<li>The vendor libraries are just used for example. The awesome js doesnt depend on them.</li>
+</ul>
 
 <h4>Completely customizable options and any of the default params can be overridden </h4>
 ```javascript
