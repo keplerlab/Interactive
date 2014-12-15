@@ -1,4 +1,9 @@
 /*
+* Awesome JS Version 1.0
+* @Credits: Prasanna Venkatesh(pvenkatesh3@sapient.com) & Kiran Adepu (kadepu@sapient.com)
+*/
+
+/*
 hasClass implementation for JavaScript dom element
 */
 Element.prototype.hasClass = function(className) {
@@ -138,15 +143,16 @@ var awesome = (function(  ){
 		* else load the image and updated the statues of element with ele.setData('loaded',true);
 		*/
 		this.loadImage = function(ele){
-
 			if(ele.hasClass(settings.lth))
 			{
 				self.handleLTH(ele);
 			}
 			else{
 				if(!ele.hasClass('hi-res-img')){
+                    if(ele.hasAttribute('data-'+(settings.currentvp)) || ele.hasAttribute('data-src')){
 					ele.setAttribute('src',(ele.getData('base')+ele.getData(settings.currentvp)) || ele.getData('src'));
 					ele.setData('loaded',true);
+                    }
 				}
 			}
 		}
@@ -397,7 +403,7 @@ var awesome = (function(  ){
 
 			var eles = document.querySelectorAll(settings.selector);
 			eles.forEach(function(ele){
-				imageHandler.checkload(ele)
+		      imageHandler.checkload(ele);
 			});
 
 			eles = document.querySelectorAll(settings.bgselector);
@@ -423,8 +429,10 @@ var awesome = (function(  ){
 			initialize();
 			if(lastmedium !== currentmedium){
 				document.querySelectorAll(settings.selector+":not([data-src])").forEach(function(ele){
+                    if(ele.hasAttribute('data-'+(settings.currentvp))){
 					ele.setAttribute('src',settings.defaultImage);
 					ele.setData('loaded',false);
+                    }
 				});
 				document.querySelectorAll(settings.bgselector+":not([data-src])").forEach(function(ele){
 					ele.style.backgroundImage = '';
