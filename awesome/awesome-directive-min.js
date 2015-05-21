@@ -1,1 +1,0 @@
-angular.module("ng.awesome",[]).directive("ic",function(){return{link:function(e,t,n){var r=JSON.parse(n.renditions);angular.forEach(r,function(e,n){t.attr("data-"+n,e)});if(t.hasClass("bgimage")){awesome.checkBgLoad(t[0])}else{awesome.checkImageload(t[0])}}}})
