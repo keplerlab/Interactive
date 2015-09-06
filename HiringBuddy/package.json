@@ -1,0 +1,17 @@
+{
+  "name": "hiring-buddy",
+  "version": "1.0.0",
+  "author": "Brameshmadhav S <bsrinivasan@sapient.com>",
+  "organization": "Sapient Nitro",
+  "license": "MIT",
+  "description": "App to automate many manaul process involved with hiring",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . HiringBuddy --platform=darwin --arch=x64 --version=0.31.2 --ignore=node_modules/electron-* && cp ./icons/hiring.icns ./HiringBuddy-darwin-x64/HiringBuddy.app/Contents/Resources/atom.icns"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.2",
+    "electron-prebuilt": "^0.31.2"
+  }
+}
