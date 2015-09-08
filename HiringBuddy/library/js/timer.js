@@ -1,0 +1,7 @@
+(function(){
+	return {
+		start : function () {
+			
+		}
+	}
+})();
