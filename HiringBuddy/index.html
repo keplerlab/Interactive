@@ -7,8 +7,11 @@
   </head>
   <body>
     <header>
-      <h1> Hiring Buddy </h1>
+      <h1> Hire Buddy </h1>
       <h4 class="candidate-name right"></h4>
+      <h4 id="timer" class="right">
+        <label id="minutes">00</label>:<label id="seconds">00</label>
+      </h4>
     </header>
     <div class="wrapper">
     <section class="identity">
@@ -211,10 +214,12 @@
     <footer>
       <span class="right">Copyright 2015 SapientNitro, All rights reserved</span>
     </footer>
+    <script type="text/javascript" src="./library/js/timer.js"> </script>
     <script type="text/javascript">
       window.$ = window.jQuery = require('./library/js/vendor/jquery-1.11.3.min.js');
       require('./library/js/main.js');
       require( './menu.js' );
+      timer.init();
     </script>
   </body>
 </html>

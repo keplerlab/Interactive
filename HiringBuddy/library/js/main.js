@@ -12,5 +12,5 @@ $('#identity-submit').on('click',function(){
 $('#instructions-submit').on('click',function(){
     $('.instructions').hide();
     $('.questions').show();
-    // timer.start();
+    timer.start();
 });
