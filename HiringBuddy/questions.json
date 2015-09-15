@@ -1,0 +1,50 @@
+{
+	"questions" : [
+		{
+			"question" : "What is the data type of null ?",
+			"answer-choices" : [
+				"null",
+				"undefined",
+				"object",
+				"none of the above"
+			]
+		},
+		{
+			"question" : "What is the data type of undefined ?",
+			"answer-choices" : [
+				"null",
+				"undefined",
+				"object",
+				"none of the above"
+			]
+		},
+		{
+			"question" : "What is the data type of null ?",
+			"answer-choices" : [
+				"null",
+				"undefined",
+				"object",
+				"none of the above"
+			]
+		},
+		{
+			"question" : "What is the data type of undefined ?",
+			"answer-choices" : [
+				"null",
+				"undefined",
+				"object",
+				"none of the above"
+			]
+		},
+		{
+			"question" : "What is the data type of null ?",
+			"answer-choices" : [
+				"null",
+				"undefined",
+				"object",
+				"none of the above"
+			]
+		}
+
+	]
+}
