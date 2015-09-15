@@ -1,5 +1,5 @@
 Hire Buddy - xt_aptitude : moved to internal repo : https://us.tools.sapient.com/stash/projects/XTI/repos/xt_aptitude/browse
-will update here a stub once the app is fully built. The open sourced app will not have references to sapient internal information / architecture.
+Moved to internal repo. Will update here a stub once the app is fully built. The open sourced app will not have references to sapient internal information / architecture.
 =======
 
 Set of tools that will help automae the laborious processes involved in hiring. The suite will include tools for Interviewees, Interviewers and HR coordinators.
