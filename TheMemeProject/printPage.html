@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User ID</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	body {
+		margin: 0;
+	}
+	.container {
+	    height: 358px;
+	    width: 448px;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+	#userImage {
+		width: 100%;
+		-moz-transform: scale(-1, 1);
+		-webkit-transform: scale(-1, 1);
+		-o-transform: scale(-1, 1);
+		transform: scale(-1, 1);
+		filter: FlipH;
+	}
+	#meme {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 150px;
+		width: 150px;
+	}
+	.nameContainer {
+	    text-align: center;
+	    margin: 20px;
+	    font-size: 20px;
+	    text-transform: capitalize;
+	}
+	.logoContainer {
+	    text-align: center;
+	    margin-top: 10px
+	}
+	.logoContainer img {
+	}
+	.content {
+		height: 358px;
+	    width: 448px;
+	    text-align: center;
+	    margin: 0 auto;
+	    position: relative;
+	}
+	</style>
+</head>
+<body onload="showImage()">
+	<div class="content">
+		<div class="container">
+			<img id="userImage">
+			<img id="meme">
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+		function showImage(){
+			document.getElementById("userImage").src = window.imageDataURL;
+			document.getElementById("meme").src = window.memeLocation;
+		}
+	</script>
+</body>
+</html>
