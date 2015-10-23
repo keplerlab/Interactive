@@ -1,0 +1,179 @@
+/** 
+    Simple Material Design Color Palette Extension for Chrome
+    Author: Santhosh Sundar
+    Organization: SapientNitro
+**/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url("fonts/Roboto-Condensed.ttf") format("truetype");
+}
+
+#wrap {
+    width: 236px;
+    position: relative;
+}
+
+.main {
+    color: #fff;
+    padding: 3px;
+    position: relative;
+}
+
+.main ul li {
+    height: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 10px 0 10px;
+    text-transform: uppercase;
+    font-family: 'roboto';
+    width: auto;
+    list-style: none;
+}
+
+.main ul li.dark {
+    color: #000;
+}
+
+.main ul li.main-color {
+    height: 70px;
+    line-height: 35px;
+}
+
+.main ul li.divide {
+    border-top: solid 3px #fff;
+}
+
+.main ul li span.name {
+    display: list-item;
+}
+
+.main ul li span.hex {
+    float: right;
+    display: none;
+}
+
+.main ul li:hover span.hex {
+    display: block;
+}
+
+.color-set {
+    margin: 1px 0 0 0;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+.color-set.active:after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #fff;
+    right: 0;
+}
+
+.color-wrap {
+    margin-bottom: 10px;
+    display: none;
+    position: absolute;
+    width: 200px;
+    top: 4px;
+    right: 5px;
+    margin: 0;
+    transition: display 1s ease;
+}
+
+.color-wrap span.dark {
+    color: #000;
+}
+
+.color-wrap.red {
+    display: block;
+}
+
+a.color-link {
+    color: #fff;
+    font-family: 'roboto';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 30px;
+    padding: 0 0 0 10px;
+}
+
+.color-list {
+    width: 25px;
+}
+
+#toast {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    font-family: 'roboto';
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    border-radius: 6px;
+    display: none;
+}
+
+#toggles {
+    height: 30px;
+    display: block;
+    width: 195px;
+    margin: 0 auto;
+    font-family: 'roboto';
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+
+#toggles ul {
+    margin: 0 0 0 25px;
+    padding: 0;
+}
+
+#toggles ul li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid;
+    width: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+
+#toggles ul li.active {
+    background: #9e9e9e;
+    color: #fff;
+    border: solid 1px #9e9e9e;
+}
+
+#contribuite {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+    cursor: pointer;
+}
+
+#contribuite img {
+    width: 100%;
+}
