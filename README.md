@@ -6,8 +6,9 @@ A no-nonsense palette for Google's Material Design Colors that you can access ri
 
 ![Screenshot](http://i.imgur.com/xtHbVRs.png)
 
-Download Chrome Extension
+Available on Chrome Web Store
 ==============
+###### Download: 
 
 https://chrome.google.com/webstore/detail/simple-material-design-pa/onaeadclbaeleijcfmmhopgmmmpedifa
 
