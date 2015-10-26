@@ -4,7 +4,10 @@ Simple Material Design Color Palette
 
 A no-nonsense palette for Google's Material Design Colors that you can access right within the browser without having to leave the tab and even offline. Available in HEX, RGB and RGBA color models.
 
-![Screenshot](http://i.imgur.com/xtHbVRs.png)
+![Screenshot](http://i.imgur.com/aopk97j.jpg)
+
+![Screenshot](http://i.imgur.com/RsO3UzQ.jpgg)
+
 
 Available on Chrome Web Store
 ==============
