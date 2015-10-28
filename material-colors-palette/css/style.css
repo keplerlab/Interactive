@@ -2,6 +2,7 @@
     Simple Material Design Color Palette Extension for Chrome
     Author: Santhosh Sundar
     Organization: SapientNitro
+    URL: http://gigacore.in
 **/
 
 body {
@@ -144,7 +145,7 @@ a.color-link {
 }
 
 #toggles ul {
-    margin: 0 0 0 25px;
+    margin: 0;
     padding: 0;
 }
 
