@@ -3,7 +3,7 @@
 
   "name": "Simple Material Design Palette",
   "description": "No-nonsense palette for Google's Material Design Colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": { "128": "icon.png" },
 
   "browser_action": {
