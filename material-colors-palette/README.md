@@ -18,3 +18,4 @@ https://chrome.google.com/webstore/detail/simple-material-design-pa/onaeadclbael
 License
 ===================
 The MIT License (MIT)
+MIT © 2015 Santhosh Sundar
