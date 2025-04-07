@@ -1,5 +1,9 @@
 Simple Material Design Color Palette 
 ============
+
+## The code is no longer maintained here.
+#### Moved to https://github.com/Gigacore/Simple-Material-Design-Palette
+
 ###### Extension for Google Chrome
 
 A no-nonsense palette for Google's Material Design Colors that you can access right within the browser without having to leave the tab and even offline. Available in HEX, RGB and RGBA color models.
